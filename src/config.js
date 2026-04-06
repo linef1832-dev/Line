@@ -10,7 +10,7 @@ function req(name) {
 
 export const config = {
   geminiApiKey: req("GEMINI_API_KEY"),
-  geminiEmbeddingModel: process.env.GEMINI_EMBEDDING_MODEL || "text-embedding-004",
+  geminiEmbeddingModel: process.env.GEMINI_EMBEDDING_MODEL || "embedding-001",
   geminiChatModel: process.env.GEMINI_CHAT_MODEL || "gemini-2.0-flash",
 
   supabaseUrl: req("SUPABASE_URL"),
